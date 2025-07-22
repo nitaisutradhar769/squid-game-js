@@ -159,9 +159,9 @@ body{
 
 @media (max-width: 576px) {
   h1 {
-    font-size: 6vw;
+    font-size: 9vw;
     color: white;
-    margin-top: 0.5rem;
+    margin-top: 3rem;
   }
 
 .mode-buttons {
@@ -170,7 +170,7 @@ body{
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  /* padding: 10px; */
+  padding: 20px;
 
   /* FIX: Ensure visibility */
   opacity: 1;
@@ -186,30 +186,32 @@ body{
 
   .container {
     height: auto;
-    padding: 10px;
+    padding: 13px;
   }
 
   .game {
-    width: 80vmin;
-    height: 65vmin;
-    gap: 2vmin;
+    width: 90vmin;
+    height: 85vmin;
+    gap: 3vmin;
   }
 
   .box {
-    width: 20vmin;
-    height: 21vmin;
+    width: 25vmin;
+    height: 25vmin;
     font-size: 10vmin;
   }
 
   .btn-wrapper {
     flex-direction: column;
-    margin-top: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 20px;
   }
 
   #reset-btn,
   #new-btn {
     width: 80%;
     font-size: 1rem;
+    margin-left: 1rem;
   }
 
   #winner,
