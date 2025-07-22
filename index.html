@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <h1> Welcome Squid Game</h1>
+<div class="mode-buttons">
+  <button id="play-friends-btn">🎮 Play with Friends</button>
+  <button id="play-ai-btn">🤖 Play with AI Agent</button>
+</div>
+    <h2 id="winner"></h2>
+    <h2 id="draw"></h2>
+  <div class="container">
+    <div class="game">
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+    </div>
+  </div>
+  <div class="btn-wrapper">
+    <button id="reset-btn">Reset</button>
+    <button id="new-btn">Play New Game</button>
+  </div>
+  
+
+<script>
+  function playClick() {
+    const sound = new Audio("https://www.soundjay.com/button/sounds/button-09.mp3");
+    sound.play();
+  }
+</script>
+
+
+  <script src="game.js"></script>
+</body>
+</html>
